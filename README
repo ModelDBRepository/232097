@@ -56,10 +56,7 @@ LFP.m:   frequency analysis of the simulated local field potential (sLFP)
 Load_data.m: Load all relevant data into the workspace (in order to save the data into a mat file for future analysis)
  
 
-
-
-
-
- 
-
-
+Changelog
+---------
+2022-05: Updated MOD files to compile with the latest neuron releases where
+         ion variables used as STATE can not be declared as GLOBAL.
