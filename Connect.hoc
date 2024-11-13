@@ -19,7 +19,9 @@ for k = 0, ngranx-1 {
 
 objref ru, rn
 ru = new Random(seedU)
+ru.Random123()
 rn = new Random(seedN)
+rn.Random123()
 
 null = ru.uniform(0, 1)
 
